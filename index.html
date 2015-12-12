@@ -8,40 +8,46 @@
 <title>行くぜ！！東北百名山</title>
 </head>
 <body>
-<header>
+<header class="main-visual">
 <h1>行くぜ！！東北百名山</h1>
 <p>登った東北の山の山行記録動画と山のデータ</p>
 </header>
 <nav>
 <ul>
-<li>山行動画</li>
+<li><a href="">山行動画</a></li>
 <li>山のデータ</li>
 <li>便利・安全</li>
 <li>オマケ</li>
 </ul>
 </nav>
 <main>
-<ul>
+<ul class="news">
 <li>山のデータ追加！（2015.11.30）</li>
 <li>山行動画追加！（2015.11.29）</li>
 <li>サイト公開！（2015.11.28）</li>
 </ul>
-<h2>最近の山行動画</h2>
+<h2 class="hdg-01">最近の山行動画</h2>
+<div class="video-wrapper">
 <div class="video">
-<iframe src="https://www.youtube.com/embed/WmaqZHJNiEE" frameborder="0" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/WmaqZHJNiEE" allowfullscreen></iframe>
 </div>
-<h2>行った山の詳細データ</h2>
+</div>
+<h2 class="hdg-01">最近行った山の詳細データ</h2>
 <p>山の写真が入る</p>
-<h2>山で使えるハック術</h2>
+<!--
+<h2 class="hdg-01">山で使えるハック術</h2>
 <p>写真やイラストが入る</p>
+-->
 <footer>
 <ul>
-<li>ソーシャルリンク：youtube</li>
-<li>ソーシャルリンク：twitter</li>
-<li>ソーシャルリンク：LINE</li>
+<li>
+<script src="https://apis.google.com/js/platform.js"></script>
+<div class="g-ytsubscribe" data-channelid="UCAeL9mr0Y9B3PPPkluaRKHw" data-layout="full" data-count="hidden"></div>
+</li>
 </ul>
-<p><small>copyright</small></p>
 </footer>
 </main>
+<script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+<script src="/js/run.js"></script>
 </body>
 </html>
