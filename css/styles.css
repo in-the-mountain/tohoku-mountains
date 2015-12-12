@@ -2,6 +2,7 @@ body{
     width: 100%;
     font-size: 16px;
     font-family: sans-serif;
+    line-height: 1.5;
 }
 
 @viewport{
@@ -78,6 +79,77 @@ nav ul a:active,
 nav ul a:focus{
     color: #fff;
 }
-.news{
-    
+main{
+    background-color: azure;
+    padding: 10px;
 }
+.news{
+    border: 2px solid #0f50A8;
+    border-radius: 5px;
+    background-color: #fff;
+    margin-bottom: 15px;
+    padding: 10px;
+    list-style: none;
+}
+.news li{
+    border-bottom: 1px dotted #ddd;
+    margin-bottom: 5px;
+    font-size: 75.0%;
+}
+.hdg-01{
+    color: #0b418d;
+    border-left: 4px solid #0f50ab;
+    margin-bottom: 10px;
+    padding-left: 10px;
+}
+.link-list{
+    text-align: right;
+    margin-bottom: 30px;
+}
+img{
+    max-width: 100%;
+}
+.data-box{
+    position: relative;
+}
+.data-box dt{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font-weight: bold;
+    font-size: 1.875em;
+    padding: 10px;
+    background-color: rgba(255,255,255,0.25);
+    border-radius: 10px;
+    border: 1px solid #ddd;
+}
+.data-box dd{
+    margin-bottom: 5px;
+    border-bottom: 1px dotted #ddd;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
