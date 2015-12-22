@@ -1,3 +1,4 @@
+/* structure and index.html */
 body{
     width: 100%;
     font-size: 16px;
@@ -102,6 +103,14 @@ main{
     margin-bottom: 10px;
     padding-left: 10px;
 }
+.hdg-02{
+    border-bottom: 1px dotted #0f50ab;
+    margin-top: 20px;
+    font-size: 87.5%;
+}
+.hdg-01+.hdg-02{
+    margin-top: 10px;
+}
 .link-list{
     text-align: right;
     margin-bottom: 30px;
@@ -129,8 +138,8 @@ img{
     border-bottom: 1px dotted #ddd;
 }
 footer{
-    margin: 20px 0;
-    padding: 10px;
+    margin: 0 0 20px;
+    padding: 20px 10px 10px;
     border: 1px solid #ddd;
 }
 .social{
@@ -195,7 +204,51 @@ footer{
         margin-bottom: 20px;
     }
 }
+/* under-structure */
+.visual{
+    background: url(/images/img-main-01.jpg) no-repeat 0 70% ;
+    background-size: cover;
+    min-height: 100px;
+    text-align: center;
+    padding: 100px 0;
+}
+.visual+.cover-01{
+    background: url(/images/img-main-01.jpg) no-repeat 0 70%;
+}
+.visual .site-title{
+    background-color: #eee;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    padding: 5px 0;
+}
+.visual .site-title a{
+    font-size: 100%;
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+    display: block;
+}
+.visual h1{
+    color: #fff;
+    font-size: 150%;
+}
+.visual p{
+    color: #eee;
+}
+.under-structure{
+    top: 34px;
+}
+.current{
+    background-color: #00ffff;
+}
 
+
+/**/
+.movie-text{
+    font-size: 87.5%;
+    margin-bottom: 10px;
+}
 
 
 
