@@ -2,13 +2,10 @@
     'use strict';
     
     //current
-    $(function () {
-        var url = window.location.href;
-        var filename = url.match(".+/(.+?)\.[a-z]+([\?#;].*)?$")[1];
-        $('#results').text(filename);
-
+    $(function(){
+        var url = window.location.pathname;
+        $('nav li a[href="'+url+'"]').parent().addClass('current');
     });
-    
 
 
 
