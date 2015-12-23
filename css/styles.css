@@ -153,6 +153,10 @@ footer{
         margin: 0 auto;
         position: relative;
     }
+    .site-title a{
+        text-align: left;
+        padding-left: 20px;
+    }
     .main-visual{
         background-position: 0 30%;
         min-height: 600px;
@@ -212,8 +216,13 @@ footer{
     text-align: center;
     padding: 100px 0;
 }
-.visual+.cover-01{
-    background: url(/images/img-main-01.jpg) no-repeat 0 70%;
+.cover-02{
+    background: url(/images/img-main-02.jpg) no-repeat 0 60%;
+    background-size: cover;
+}
+.cover-03{
+    background: url(/images/img-main-03.jpg) no-repeat 0 70%;
+    background-size: cover;
 }
 .visual .site-title{
     background-color: #eee;
@@ -242,6 +251,19 @@ footer{
 .current{
     background-color: #0e6ac1;
 }
+.scroll-top{
+    margin-top: 20px;
+}
+.scroll-top li{
+    list-style-type: none;
+    text-align: right;
+}
+.scroll-top img{
+    width: 12%;
+}
+.montain-list{
+    list-style-type: none;
+}
 
 
 /**/
@@ -250,7 +272,26 @@ footer{
     margin-bottom: 10px;
 }
 
-
+@media (min-width: 641px){
+    
+    .hdg-01:nth-of-type(1){
+        position: static;
+        color: #0b418d;
+        border-left: 4px solid #0f50ab;
+    }
+    .video-wrapp-reset{
+        position: static;
+    }
+    .cover-02{
+        background-position: 0 38%;
+    }
+    .cover-03{
+        background-position: 0 40%;
+    }
+    .scroll-top img{
+        width: 5%;
+    }
+}
 
 
 
